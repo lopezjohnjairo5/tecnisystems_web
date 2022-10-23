@@ -1,0 +1,147 @@
+[26-Aug-2022 00:26:23 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[26-Aug-2022 00:26:26 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_provider_model.php on line 29
+[26-Aug-2022 00:26:28 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 26
+[26-Aug-2022 00:26:28 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 57
+[26-Aug-2022 00:26:28 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[26-Aug-2022 00:26:28 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 87
+[26-Aug-2022 00:26:28 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 119
+[26-Aug-2022 00:26:28 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 150
+[26-Aug-2022 00:26:34 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[26-Aug-2022 00:26:35 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[26-Aug-2022 00:26:37 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[26-Aug-2022 00:26:40 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_provider_model.php on line 29
+[26-Aug-2022 00:26:42 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[26-Aug-2022 11:15:17 America/Bogota] PHP Notice:  Undefined index: position_coords in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:15:17 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:15:17 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:15:17 America/Bogota] PHP Notice:  Undefined index: position_coords in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:15:17 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:15:17 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:15:17 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 26
+[26-Aug-2022 11:15:17 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[26-Aug-2022 11:15:17 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 57
+[26-Aug-2022 11:15:17 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 87
+[26-Aug-2022 11:15:17 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 119
+[26-Aug-2022 11:15:17 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 150
+[26-Aug-2022 11:15:19 America/Bogota] PHP Notice:  Undefined index: position_coords in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:15:19 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:15:19 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:15:19 America/Bogota] PHP Notice:  Undefined index: position_coords in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:15:19 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:15:19 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:15:19 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[26-Aug-2022 11:17:15 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_provider_model.php on line 26
+[26-Aug-2022 11:17:15 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_provider_model.php on line 58
+[26-Aug-2022 11:17:16 America/Bogota] PHP Notice:  Undefined index: position_coords in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:17:16 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:17:16 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:17:16 America/Bogota] PHP Notice:  Undefined index: position_coords in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:17:16 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:17:16 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:17:16 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[26-Aug-2022 11:17:17 America/Bogota] PHP Notice:  Undefined index: position_coords in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:17:17 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:17:17 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:17:17 America/Bogota] PHP Notice:  Undefined index: position_coords in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:17:17 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:17:17 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:17:17 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 26
+[26-Aug-2022 11:17:17 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 57
+[26-Aug-2022 11:17:17 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 87
+[26-Aug-2022 11:17:17 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[26-Aug-2022 11:17:17 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 119
+[26-Aug-2022 11:17:17 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 150
+[26-Aug-2022 11:19:32 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_products_model.php on line 23
+[26-Aug-2022 11:19:33 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_products_model.php on line 129
+[26-Aug-2022 11:19:33 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_products_model.php on line 208
+[26-Aug-2022 11:19:33 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_products_model.php on line 172
+[26-Aug-2022 11:19:33 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_products_model.php on line 239
+[26-Aug-2022 11:19:33 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_products_model.php on line 273
+[26-Aug-2022 11:25:07 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_provider_model.php on line 29
+[26-Aug-2022 11:25:07 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_provider_model.php on line 131
+[26-Aug-2022 11:25:07 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_provider_model.php on line 157
+[26-Aug-2022 11:25:07 America/Bogota] PHP Notice:  Undefined index: position_coords in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:25:07 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:25:07 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 11:25:07 America/Bogota] PHP Notice:  Undefined index: position_coords in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:25:07 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:25:07 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 11:25:07 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Undefined index: Cellar_user in /home/plataf99/public_html/tecnisystems_cellar/controllers/record_user_controller.php on line 7
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/record_user_controller.php on line 7
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Undefined index: position_coords in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 9
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Undefined index: position_coords in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 10
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Undefined index: Cellar_user in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 15
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 15
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Undefined index: Cellar_user in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 15
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 15
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Undefined index: Cellar_user in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 15
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 15
+[26-Aug-2022 12:21:59 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 14
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  Undefined variable: id_state_user in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 21
+[26-Aug-2022 12:21:59 America/Bogota] PHP Notice:  session_start(): A session had already been started - ignoring in /home/plataf99/public_html/tecnisystems_cellar/general_functions/end_session.php on line 5
+[26-Aug-2022 12:26:02 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 26
+[26-Aug-2022 12:26:02 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[26-Aug-2022 12:26:02 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 57
+[26-Aug-2022 12:26:02 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 87
+[26-Aug-2022 12:26:02 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 119
+[26-Aug-2022 12:26:02 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 150
+[28-Aug-2022 11:47:27 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[28-Aug-2022 11:47:30 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 26
+[28-Aug-2022 11:47:30 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 57
+[28-Aug-2022 11:47:30 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[28-Aug-2022 11:47:30 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 87
+[28-Aug-2022 11:47:30 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 119
+[28-Aug-2022 11:47:30 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 150
+[28-Aug-2022 11:51:31 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[28-Aug-2022 11:51:33 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_provider_model.php on line 29
+[28-Aug-2022 11:51:33 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_provider_model.php on line 131
+[28-Aug-2022 11:51:33 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_provider_model.php on line 157
+[28-Aug-2022 11:51:34 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[28-Aug-2022 11:51:39 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 26
+[28-Aug-2022 11:51:39 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 57
+[28-Aug-2022 11:51:39 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 87
+[28-Aug-2022 11:51:39 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[28-Aug-2022 11:51:39 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 119
+[28-Aug-2022 11:51:39 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 150
+[28-Aug-2022 11:54:52 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_products_model.php on line 23
+[28-Aug-2022 11:54:53 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_products_model.php on line 129
+[28-Aug-2022 11:54:53 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_products_model.php on line 208
+[28-Aug-2022 11:54:53 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_products_model.php on line 172
+[28-Aug-2022 11:54:53 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_products_model.php on line 239
+[28-Aug-2022 11:54:53 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/new_products_model.php on line 273
+[28-Aug-2022 11:55:33 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[28-Aug-2022 11:57:34 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[29-Aug-2022 11:07:44 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[29-Aug-2022 11:07:44 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 26
+[29-Aug-2022 11:07:44 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 57
+[29-Aug-2022 11:07:44 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[29-Aug-2022 11:07:44 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 87
+[29-Aug-2022 11:07:44 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 119
+[29-Aug-2022 11:07:44 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 150
+[29-Aug-2022 11:07:45 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[29-Aug-2022 11:07:46 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[29-Aug-2022 11:07:47 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[29-Aug-2022 11:07:48 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[29-Aug-2022 11:07:49 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 26
+[29-Aug-2022 11:07:49 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 57
+[29-Aug-2022 11:07:49 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[29-Aug-2022 11:07:49 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 87
+[29-Aug-2022 11:07:49 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 119
+[29-Aug-2022 11:07:49 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/search_info_tab_products_model.php on line 150
+[29-Aug-2022 15:37:24 America/Bogota] PHP Notice:  Undefined index: Cellar_user in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 15
+[29-Aug-2022 15:37:24 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 15
+[29-Aug-2022 15:37:24 America/Bogota] PHP Notice:  Undefined index: Cellar_user in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 15
+[29-Aug-2022 15:37:24 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 15
+[29-Aug-2022 15:37:24 America/Bogota] PHP Notice:  Undefined index: Cellar_user in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 15
+[29-Aug-2022 15:37:24 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/plataf99/public_html/tecnisystems_cellar/controllers/save_user_record_controller.php on line 15
+[29-Aug-2022 15:37:24 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 14
+[29-Aug-2022 15:37:24 America/Bogota] PHP Notice:  Undefined variable: id_state_user in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 21
+[29-Aug-2022 15:37:24 America/Bogota] PHP Notice:  session_start(): A session had already been started - ignoring in /home/plataf99/public_html/tecnisystems_cellar/general_functions/end_session.php on line 5
+[29-Aug-2022 15:37:44 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91
+[29-Aug-2022 15:37:57 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/setting_model.php on line 48
+[29-Aug-2022 15:37:59 America/Bogota] PHP Notice:  Undefined variable: result in /home/plataf99/public_html/tecnisystems_cellar/models/save_record_user_model.php on line 91

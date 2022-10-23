@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+:root{
+	--background-charge-color: #f0c91d;
+	--background-charge-color-empty: rgba(255,255,255,0);
+	--background-charge-color-text: rgb(0,0,0);
+	--background-charge-color-charge: red;
+	--background-charge-color-charge-dark: rgb(160,0,0);
+}
+
+/*charge*/
+.load_page{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	position: fixed;
+	top: 0;
+	left 0;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(45deg, white 0%, white 10%, var(--background-charge-color) 10%, var(--background-charge-color) 90%, white 90%, white 100%);
+	transition: all 1s ease;
+	z-index: 1005;
+}
+
+.charge{
+	width: 120px;
+	height: 120px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--background-charge-color-empty);
+	border: 10px solid var(--background-charge-color-text);
+	border-radius: 100%;
+	animation: charge_rotate 7s linear infinite;
+
+}
+
+.animation_inside{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.inside,.inside2{
+	position: absolute;
+	opacity: .05;
+}
+
+.inside{
+	top: 70px;
+	left: 70px;
+}
+
+.inside2{
+	top: -70px;
+	left: -70px;
+}
+
+.parts{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: var(--background-charge-color-text);
+	border-radius: 7px;
+}
+
+
+#p1{
+	top: -25px;
+}
+#p2{
+	bottom: -25px;
+}
+#p3{
+	left: -25px;
+}
+#p4{
+	right: -25px;
+}
+
+#p5,#p7{
+	transform: rotate(45deg);
+}
+#p6,#p8{
+	transform: rotate(-45deg);
+}
+
+#p5{
+	top: -3px;
+	left: -3px;
+}
+#p6{
+	top: -3px;
+	right: -3px;
+}
+#p7{
+	bottom: -3px;
+	left: -3px;
+}
+#p8{
+	bottom: -3px;
+	right: -3px;
+}
+
+.text_charge{
+	color: var(--background-charge-color-text);
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.1em;
+	position: absolute;
+	animation: text_change 3s linear infinite;
+}
+
+@keyframes charge_rotate{
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}
+
+
+@keyframes text_change{
+	0% {opacity: 0.3;}
+	45% {opacity: 1;}
+	55% {opacity: 1;}
+	100% {opacity: 0.3;}
+}

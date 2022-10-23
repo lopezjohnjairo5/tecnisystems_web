@@ -1,0 +1,8 @@
+RewriteEngine On
+
+ErrorDocument 403 http://plataformastecnisystems.com/views/denied.php
+ErrorDocument 404 http://plataformastecnisystems.com/views/not_found.php
+
+#evita que se liste el contenido de las carpetas, generando error 403
+Options -Indexes
+

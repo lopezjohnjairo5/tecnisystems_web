@@ -1,0 +1,833 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root{
+  --yellow:#f0c91d;
+  --dark-yellow:#d0a70b;
+  --black:#000000;
+  --black-transparent:rgba(0,0,0,.7);
+  --white:#ffffff;
+  --light-yellow:#f7e48e;
+  --btn-size:1em;
+  --error-background:rgb(200,150,150);
+  --error-title:rgb(200,80,80);
+}
+
+/*generals*/
+.hidden{
+  display: none;
+}
+
+/*pagination*/
+#pagination_user{
+  margin-top: 100px;
+	position: absolute;
+  bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+#container_number_pages_user{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin-left: 30px;
+	overflow: hidden;
+}
+
+#container_number_pages_user span{
+	height: 100%;
+	margin: 0;
+	padding: 15px;
+	box-sizing: border-box;
+	background-color: yellow;
+}
+
+#container_number_pages_user span a{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	text-decoration: none;
+}
+
+#btn_before_pages_user{
+	position: absolute;
+	left: 0;
+}
+
+#btn_after_pages_user{
+	position: absolute;
+	right: 0;
+}
+
+.btns_prev_next_page_user{
+	width: 30px;
+	height: 100%;
+	border: none;
+	background-color: var(--white);
+}
+
+/*generals panel sections */
+.tab_buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.tabs{
+  width: 100%;
+  padding: 10px;
+  background-color: var(--yellow);
+  border: none;
+}
+
+.block_scroll{
+  overflow: hidden;
+}
+
+#location_coords{
+  display: none;
+}
+
+#new_technical,
+#location,
+#administratives,
+#cellars,
+#record,
+#settings,
+#sign_off,
+#hamburguer,
+#record_electrical_content{
+  display: none;
+}
+
+h3{
+  width: 100%;
+}
+
+/*btn ayuda*/
+.btn_help{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.btn_help img{
+  width: 24px;
+  height: 24px;
+}
+
+/*display alert info*/
+.display_info{
+  position: fixed;
+  display: none;
+  width: 30%;
+  height: auto;
+  background-color: var(--dark-yellow);
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  z-index: 10003;
+}
+
+.display_info a{
+  text-align: center;
+  min-width: 50px;
+  min-height: 100%;
+  background-color: var(--light-yellow);
+  font-size: 2em;
+  text-decoration: none;
+  left: 20px;
+  top: 20px;
+  padding-top: 30px;
+}
+
+.content_display_info{
+  padding: 30px 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/*container tables*/
+.max_size_table{
+  width: 90%;
+  max-height: 50%;
+  position: absolute;
+  overflow-x: scroll;
+}
+
+#table_technicals_info thead tr th img{
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+/*clases giro img*/
+.giro{
+  transform: rotate(180deg);
+}
+
+/*cards user record*/
+.record_card{
+  background-color: var(--yellow);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.record_card header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+/*pop error*/
+.pops{
+  width: 200px;
+  height: 110px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: var(--error-background);
+  z-index: 10003;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.pops a{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-weight: bold;
+  color:var(--white);
+  text-decoration: none;
+}
+.pops h4{
+  color:var(--error-title);
+  border-bottom: 1px solid var(--white);
+  margin-bottom: 5px;
+}
+.pops p{
+  color:var(--white);
+}
+
+/*pop records search users*/
+#pop_restart_access_user,
+#pop_record_users,
+#pop_change_state_user{
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: var(--black-transparent);
+}
+
+#restart_access_user,
+#record_search_users,
+#change_state_user{
+  padding: 20px;
+  position: relative;
+  background-color: var(--white);
+  box-sizing: border-box;
+}
+
+#record_search_users{
+  width: 80%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+#restart_access_user h1,
+#record_search_users h1,
+#change_state_user h1{
+  color:var(--dark-yellow);
+}
+
+#close_info_restart_access_user,
+#close_info_user_search,
+#close_info_state_user{
+  position: fixed;
+  font-weight: bolder;
+  font-size: 1.5em;
+  color: var(--yellow);
+  text-decoration: none;
+  right: 50px;
+  top: 25px;
+}
+
+#info_restart_access_user,
+#info_user_search,
+#info_user_search_state{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin: 20px 0;
+  border-bottom: 2px solid var(--yellow);
+}
+
+#table_record_search_user tr td:first-child{
+  width: 50%;
+}
+
+/*pop change state user*/
+#restart_access_user,
+#change_state_user{
+  width: 70%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+#select_state_user_search{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#btn_continue_restart_access_user,
+#btn_save_state_user{
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/*login*/
+#login{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  background-color: var(--yellow);
+  background-image: url("../../imgs/ornament250x250.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+#logo{
+    min-width: 100px;
+    min-height: 100px;
+    margin-bottom: 25px;
+}
+
+.login_inputs{
+  border: none;
+}
+
+.login_inputs,
+#form_login select{
+  width: 80%;
+  padding: 10px;
+  margin: 3px 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#form_login input[type="checkbox"]{
+  width: 20px;
+  margin: 25px 0;
+}
+
+#btn_submit{
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  border:2px solid rgb(255,255,255);
+  background-color: var(--yellow);
+}
+
+/*technical panel*/
+#navigation_technical_panel{
+  display: inline-block;
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  padding: 25px 20px;
+  text-align: center;
+  background-color: var(--yellow);
+  box-sizing: border-box;
+  background-image: url("../../imgs/ornament250x250.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+#hamburguer{
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  right: 0;
+  top: 0;
+  background-color: var(--yellow);
+  border: none;
+  transition: all ease-in-out .3s;
+  z-index: 1001;
+}
+
+#navigation_technical_panel ul li{
+  list-style: none;
+}
+
+#navigation_technical_panel_logo{
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.navigation_technical_panel_sections{
+  color: var(--black);
+  text-align: left;
+  text-decoration: none;
+}
+
+.navigation_technical_panel_sections li{
+  padding: 10px;
+  border-bottom: 2px solid var(--black);
+  transition: all ease-in-out .3s;
+}
+
+.navigation_technical_panel_sections li img{
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  vertical-align: top;
+}
+
+.socials{
+  width: 250px;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  margin-top: 20px;
+}
+
+/*content sections*/
+.content_technical_panel_sections{
+  width: 73%;
+  height: 100vh;
+  padding: 3%;
+  padding-top: 50px;
+  vertical-align:top;
+  display: inline-block;
+  position: absolute;
+  margin-left: 250px;
+  box-sizing:border-box;
+}
+
+.head_content_technical_panel_sections img{
+  width: 15px;
+  vertical-align: text-top;
+}
+
+.head_content_technical_panel_sections img,
+.head_content_technical_panel_sections h1{
+  display: inline-block;
+}
+
+.head_content_technical_panel_sections hr{
+  border: 1px solid var(--yellow);
+}
+
+#btn_continue_restart_access_user,
+#btn_confirm_sign_off,
+#btn_save_state_user,
+.general_input_button{
+  padding: 10px;
+  color: var(--black);
+  font-weight: bold;
+  font-size: var(--btn-size);
+  text-decoration: none;
+  background-color: var(--yellow);
+  border: 1px solid var(--black);
+  margin: 20px 10px;
+}
+
+
+/*technicals*/
+.content_tabs{
+  padding: 10px 0;
+}
+
+#form_search_technical_content{
+  width: 100%;
+  display: flex;
+  margin: 10px 0;
+}
+
+#typeElementToSearch,
+#input_search_technical{
+  width: 90%;
+  padding: 10px;
+}
+
+#btn_search_technical{
+    width: 10%;
+    height: 40px;
+    background-color: var(--yellow);
+}
+
+#btn_search_technical img{
+  height: 100%;
+}
+
+.imgs_actions_table{
+  margin: 3px;
+  width: 20px;
+}
+
+
+/*new user*/
+#form_new_technical_user{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+
+}
+
+#form_new_technical_user input,
+#form_new_technical_user select{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+#select_operation_user,#select_operation_user label{
+  display: flex;
+}
+
+#select_operation_user{
+  width: 100%;
+  padding: 10px 0;
+}
+
+#select_operation_user label{
+  width: 100%;
+}
+
+#select_operation_user label input{
+  width: 10%;
+}
+
+#typeTechnical{
+  display: none;
+}
+
+#tokenElement{
+  display: none;
+}
+
+/*END technicals*/
+/*location*/
+.location_content_info{
+  width: 100%;
+}
+
+#mapSection{
+  width: 100%;
+  height: 400px;
+}
+
+/*records*/
+#filter_record,
+#filter_record_electrical_content{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.table_responsive_format{
+  width: 100%;
+  border-collapse:collapse;
+  border: none;
+}
+
+.table_responsive_format thead{
+  background-color: var(--yellow);
+}
+
+.table_responsive_format th,
+.table_responsive_format td{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.table_responsive_format tr:nth-child(even){
+  background-color: var(--light-yellow);
+}
+
+#table_search_machine thead tr th img{
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+/*clases giro img*/
+.giro{
+  transform: rotate(180deg);
+}
+
+/*settings*/
+#form_settings_technical_panel{
+  text-align: center;
+}
+
+.general_inputs{
+  display: block;
+  width: 95%;
+  padding: 7px;
+  margin: 10px 0;
+}
+
+/*sign_off*/
+#sign_off{
+  text-align: center;
+}
+
+/*animations*/
+.btns_prev_next_page:hover{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.navigation_technical_panel_sections li:hover{
+  background-color: var(--light-yellow);
+}
+
+#btn_submit:hover,
+#btn_search_technical:hover,
+#hamburguer:hover,
+.tabs:hover,
+#btn_continue_restart_access_user:hover,
+#btn_confirm_sign_off:hover,
+#btn_save_state_user:hover,
+.general_input_button:hover,
+.btn_firms:hover{
+  background-color: var(--light-yellow);
+  cursor: pointer;
+}
+
+#table_search_machine thead tr th:hover{
+  background-color: var(--light-yellow);
+}
+
+#table_search_machine thead tr th:active{
+  background-color: var(--dark-yellow);
+}
+
+
+#table_technicals_info thead tr th:hover{
+  background-color: var(--light-yellow);
+}
+
+#table_technicals_info thead tr th:active{
+  background-color: var(--dark-yellow);
+}
+
+
+/*responsive*/
+@media only screen and (max-width: 950px) {
+
+  /*btn ayuda-responsive*/
+  .btn_help{
+    position: absolute;
+    top: 30px;
+    right: calc(50% - 12px);
+  }
+
+  .btn_help img{
+    width: 24px;
+    height: 24px;
+  }
+  /*fin btn ayuda-responsive*/
+
+  #login{
+    background-size: 45%;
+  }
+
+  #hamburguer{
+    display: block;
+    position: fixed;
+  }
+
+  #navigation_technical_panel{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    font-size: 1.3em;
+    vertical-align: middle;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  .navigation_technical_panel_sections{
+    text-align: center;
+  }
+
+  .navigation_technical_panel_sections li img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .content_technical_panel_sections{
+    margin-left: 0;
+    width: 100%;
+  }
+
+  /*Socials*/
+  .socials{
+    width: 100%;
+  }
+
+  .general_inputs{
+    width: 95%;
+    padding: 7px;
+    margin: 10px 0;
+  }
+
+  /*table responsive*/
+  .max_size_table{
+    max-width: 100%;
+    position:relative;
+    overflow-x:auto;
+  }
+
+  .table_responsive_format{
+    display:flex;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  #table_record{
+    height: 145px;
+  }
+
+
+  .table_responsive_format thead{
+    position: fixed;
+  }
+
+  .table_responsive_format tr{
+    /*display: inline-block;*/
+    /* display: grid; */
+  }
+
+  #table_record tr td{
+    margin-left: 100px;
+  }
+
+
+  .table_responsive_format thead th,
+  .table_responsive_format tr td{
+    display: block;
+  }
+
+  /*search machine - tecnical*/
+  #table_technicals_info tr td{
+    margin-left: 110px;
+  }
+
+  /*users*/
+  #form_search_technical_content{
+      display: block;
+  }
+
+  #form_search_technical_content select,
+  #form_search_technical_content button,
+  #form_search_technical_content input{
+      width: 100%;
+  }
+
+  #btn_search_technical img{
+      width: 25px;
+      height: 25px;
+  }
+
+  /*table search users*/
+  #table_technicals_info{
+    height: 200px;
+  }
+  /*pop search user*/
+  #restart_access_user{
+    min-height: 450px;
+  }
+
+  #close_info_restart_access_user,
+  #close_info_user_search,
+  #close_info_state_user{
+    left:50px;
+    right: 0;
+  }
+
+  #table_record_search_user tr{
+    height: 250px;
+  }
+
+  #content_table_record_search_user tr{
+    width: calc(110px + 150%);
+  }
+
+  #table_record_search_user tr td{
+    margin-left: 110px;
+  }
+
+  #table_record_search_user{
+    height: 270px;
+  }
+
+  #record_search_users{
+    overflow: hidden;
+    width: 90%;
+  }
+
+  #info_restart_access_user,
+  #info_user_search,
+  #info_user_search_state{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  /*pop change state user*/
+  #restart_access_user,
+  #change_state_user{
+    width: 90%;
+    height: 50%;
+  }
+
+  /*display alert info*/
+  .display_info{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .content_display_info{
+    padding: 20px 30px;
+  }
+}

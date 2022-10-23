@@ -1,0 +1,1153 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root{
+  --yellow:#f0c91d;
+  --dark-yellow:#d0a70b;
+  --black:#000000;
+  --black-transparent:rgba(0,0,0,.7);
+  --white:#ffffff;
+  --light-yellow:#f7e48e;
+  --btn-size:1em;
+  --error-background:rgb(200,150,150);
+  --error-title:rgb(200,80,80);
+}
+
+/*generals*/
+.hidden{
+  display: none;
+}
+
+/*pagination*/
+#pagination_client,
+#pagination{
+  margin-top: 100px;
+	position: absolute;
+  bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+#container_number_pages_client,
+#container_number_pages{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin-left: 30px;
+	overflow: hidden;
+}
+
+#container_number_pages_client span,
+#container_number_pages span{
+	height: 100%;
+	margin: 0;
+	padding: 15px;
+	box-sizing: border-box;
+	background-color: yellow;
+}
+
+#container_number_pages_client span a,
+#container_number_pages span a{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	text-decoration: none;
+}
+
+#btn_before_pages_client,
+#btn_before_pages{
+	position: absolute;
+	left: 0;
+}
+
+#btn_after_pages_client,
+#btn_after_pages{
+	position: absolute;
+	right: 0;
+}
+
+.btns_prev_next_page_client,
+.btns_prev_next_page{
+	width: 30px;
+	height: 100%;
+	border: none;
+	background-color: var(--white);
+}
+
+/*btn ayuda*/
+.btn_help{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.btn_help img{
+  width: 24px;
+  height: 24px;
+}
+
+/*display alert info*/
+.display_info{
+  position: fixed;
+  display: none;
+  width: 30%;
+  height: auto;
+  background-color: var(--dark-yellow);
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  z-index: 10003;
+}
+
+.display_info a{
+  text-align: center;
+  min-width: 50px;
+  min-height: 100%;
+  background-color: var(--light-yellow);
+  font-size: 2em;
+  text-decoration: none;
+  left: 20px;
+  top: 20px;
+  padding-top: 30px;
+}
+
+.content_display_info{
+  padding: 30px 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/*hours panels*/
+#content_hour_reports{
+  display: block;
+}
+.hour_section{
+  display: flex;
+  padding: 7px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  vertical-align: bottom;
+}
+
+.start_end_hour_inputs{
+    min-width: 20%;
+}
+
+/*generals panel sections */
+.block_scroll{
+  overflow: hidden;
+}
+#location_coords{
+  display: none;
+}
+
+
+#search_client,
+#clients,
+#record,
+#settings,
+#sign_off,
+#hamburguer{
+  display: none;
+}
+
+h3{
+  width: 100%;
+}
+
+/*cards user record*/
+.record_card{
+  background-color: var(--yellow);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.record_card header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+/*pop error*/
+.pops{
+  width: 200px;
+  height: 110px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: var(--error-background);
+  z-index: 10003;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.pops a{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-weight: bold;
+  color:var(--white);
+  text-decoration: none;
+}
+
+.pops h4{
+  color:var(--error-title);
+  border-bottom: 1px solid var(--white);
+  margin-bottom: 5px;
+}
+.pops p{
+  color:var(--white);
+}
+
+#pop_update_client{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  /*display: flex;*/
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black-transparent);
+}
+
+#close_pop_update_client{
+  text-align: center;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  color:var(--dark-yellow);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.pop_update_client_content{
+  width: 75%;
+  height: 75%;
+  padding: 30px;
+  background-color: white;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+.new_client_form hr,
+.pop_update_client_content hr{
+  height: 1px;
+  background-color: var(--yellow);
+  border: none;
+}
+
+#update_client_form{
+  width: 100%;
+  text-align: center;
+}
+
+#update_client_form input,
+#update_client_form select{
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.details_info_client{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.details_info_client span{
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+/*form client*/
+.multiple_address_clients{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 5px;
+  position: relative;
+}
+
+.addres_client_sections{
+  width: 100%;
+  position: relative;
+  height: 200px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#buttons_update_address_client_info,
+#buttons_address_client_info{
+  overflow-y: scroll;
+}
+
+/*login*/
+
+#login{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  background-color: var(--yellow);
+  background-image: url("../../imgs/ornament250x250.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+#logo{
+    min-width: 100px;
+    min-height: 100px;
+    margin-bottom: 25px;
+}
+
+.login_inputs{
+  border: none;
+}
+
+.login_inputs,
+#form_login select{
+  width: 80%;
+  padding: 10px;
+  margin: 3px 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#form_login input[type="checkbox"]{
+  width: 20px;
+  margin: 25px 0;
+}
+
+#btn_submit{
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  border:2px solid rgb(255,255,255);
+  background-color: var(--yellow);
+}
+
+/*technical panel*/
+#navigation_technical_panel{
+  display: inline-block;
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  padding: 25px 20px;
+  text-align: center;
+  background-color: var(--yellow);
+  box-sizing: border-box;
+  background-image: url("../../imgs/ornament250x250.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+#hamburguer{
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  right: 0;
+  top: 0;
+  background-color: var(--yellow);
+  border: none;
+  transition: all ease-in-out .3s;
+  z-index: 1001;
+}
+
+#navigation_technical_panel ul li{
+  list-style: none;
+}
+
+#navigation_technical_panel_logo{
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.navigation_technical_panel_sections{
+  color: var(--black);
+  text-align: left;
+  text-decoration: none;
+}
+
+.navigation_technical_panel_sections li{
+  padding: 10px;
+  border-bottom: 2px solid var(--black);
+  transition: all ease-in-out .3s;
+}
+
+.navigation_technical_panel_sections li img{
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  vertical-align: top;
+}
+
+.socials{
+  width: 250px;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  margin-top: 20px;
+}
+
+/*content sections*/
+.content_technical_panel_sections{
+  width: 73%;
+  height: 100vh;
+  padding: 3%;
+  padding-top: 50px;
+  vertical-align:top;
+  display: inline-block;
+  position: absolute;
+  margin-left: 250px;
+  box-sizing:border-box;
+}
+
+.head_content_technical_panel_sections img,
+#search_by_serial_electric_machine img{
+  width: 15px;
+  vertical-align: text-top;
+}
+
+.head_content_technical_panel_sections img,
+.head_content_technical_panel_sections h1{
+  display: inline-block;
+}
+
+.head_content_technical_panel_sections hr{
+  border: 1px solid var(--yellow);
+}
+
+/*draw canvas forms techinical & client*/
+#pop_client,#pop_technical{
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color:var(--black-transparent);
+  z-index: 1003;
+}
+
+.content_pops{
+  width: 100%;
+  height: 70%;
+  color: var(--white);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content_pops a{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 20px;
+  height:  20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--yellow);
+  border: 2px solid var(--yellow);
+  border-radius: 15px;
+}
+.canvas_section{
+  width: 50%;
+  height: 75%;
+  border: 1px solid var(--black);
+  background-color: var(--white);
+}
+.button_draw{
+  width: 50%;
+  height: 50px;
+}
+
+
+.btn_firms{
+  width: 100%;
+  background-color: var(--yellow);
+  padding: 10px 5px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.content_pop_draw{
+  border: 1px solid var(--yellow);
+  height: 500px;
+}
+
+.pop_draw{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+}
+.client_info{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.client_info label{
+  min-width: 25%;
+  display: inline-block;
+}
+.client_info input{
+  min-width: 70%;
+  display: inline-block;
+}
+.draw_section{
+  position: relative;
+  padding: 15px;
+  width: 300px;
+  box-sizing: border-box;
+  background-color: var(--white);
+}
+.draw_section h3{
+  text-align: center;
+}
+
+
+/*reports*/
+.tabs{
+  width: 100%;
+}
+.tabs button{
+  width: 50%;
+  float: left;
+  font-weight: bold;
+  padding: 15px 0;
+  display: inline-block;
+  border: none;
+  background-color: var(--yellow);
+  border-bottom: 2px solid var(--yellow);
+  box-sizing: border-box;
+
+}
+
+/*report electrical*/
+#report_electrical_form input,
+#report_electrical_form select,
+#report_air_conditioning_form input,
+#report_air_conditioning_form select{
+  width: 20%;
+  padding: 5px;
+  margin: 5px 0;
+}
+#observations{
+  width: 97%;
+  padding: 5px;
+}
+
+.report_electrical_content_sections,
+.report_air_conditioning_sections,
+.report_pumps_content_sections{
+  border: 2px solid var(--yellow);
+  padding: 10px;
+  margin: 25px 0;
+  box-sizing: border-box;
+}
+
+#re_content_table{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.report_electrical_content_table{
+  width: 30%;
+  margin: 5px 0;
+  vertical-align: text-top;
+  border:1px solid var(--black);
+}
+
+.report_electrical_second_content_table{
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid var(--yellow);
+  box-sizing: border-box;
+}
+.report_electrical_second_content_table thead tr{
+  text-align: center;
+  background-color: var(--yellow);
+}
+.report_electrical_second_content_table tr td{
+  text-align: center;
+}
+.report_electrical_second_content_table tr td input{
+  min-width: 80%;
+}
+
+
+.btns_forms_technicals{
+  width: 100%;
+  display: flex;
+  align-items:middle;
+  justify-content: center;
+  position: relative;
+}
+
+.btn_reports{
+  position: relative;
+}
+
+#btn_confirm_sign_off,
+.btn_reports,
+.general_input_button{
+  padding: 10px;
+  color: var(--black);
+  font-weight: bold;
+  font-size: var(--btn-size);
+  text-decoration: none;
+  background-color: var(--yellow);
+  border: 1px solid var(--black);
+  margin: 20px 10px;
+}
+
+.report_electrical_content_table input[type="radio"],
+.report_air_conditioning_content_table input[type="radio"]{
+  min-width: 15px;
+}
+
+.scan_qr_electrical_machine{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 250px;
+  background-color: red;
+}
+
+.machine_electrical_content{
+  display: inline-block;
+  width: 48%;
+}
+
+#power_plant_serial{
+  min-width: 60%;
+}
+
+.machine_electrical_content_section label,
+.machine_electrical_content_section input,
+.general_air_conditioning_sections label,
+.general_air_conditioning_sections input{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.machine_electrical_content_section input,
+.general_air_conditioning_sections input{
+  width: 18%;
+}
+
+.machine_electrical_content_section label,
+.general_air_conditioning_sections label{
+  width: 20%;
+  margin-left: 10px;
+}
+
+
+.scan_qr_electrical_machine video,
+.scan_qr_electrical_machine canvas,
+.scan_qr_electrical_machine img{
+  top:0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+}
+
+.scan_qr_electrical_machine button{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.scan_qr_electrical_machine input[type="file"]{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.parameters_electrical_content_sections{
+  display: block;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+.parameters_electrical_content_sections label,
+.parameters_electrical_content_sections input{
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.parameters_electrical_content_sections label{
+  width: 10%;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+.parameters_electrical_content_sections input{
+  width: 18%;
+}
+
+/*record electrical*/
+#table_record_electrical_content tr td a img{
+  width: 15px;
+}
+
+
+/*search machine - reports*/
+.search_bar_client,
+.search_bar_report{
+  display: flex;
+  margin: 10px 0;
+}
+
+#search_client_input,
+#search_report_input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--black);
+  border-right: none;
+  box-sizing: border-box;
+}
+
+#btn_search_client img,
+#btn_search_report img{
+  width: 30px;
+}
+
+#btn_search_client,
+#btn_search_report{
+  padding: 5px;
+  background-color: var(--yellow);
+  border:none;
+}
+
+#btn_search_client,
+#btn_search_report{
+  border-top: 1px solid var(--black);
+  border-right: 1px solid var(--black);
+  border-bottom: 1px solid var(--black);
+}
+
+.space_cam_visor{
+  width: 80%;
+  height: 80%;
+  background-color: var(--black);
+}
+
+/*clients*/
+#new_client{
+  padding-top: 15px;
+}
+
+#form_settings_technical_panel,
+.new_client_form{
+  text-align: center;
+}
+
+
+/*table*/
+
+#table_update_clients_address_content,
+#table_clients_address_content,
+.table_responsive_format{
+  width: 100%;
+  border-collapse:collapse;
+  border: none;
+}
+
+#table_update_clients_address_content thead,
+#table_clients_address_content thead,
+.table_responsive_format thead{
+  background-color: var(--yellow);
+}
+
+#table_update_clients_address_content th,
+#table_update_clients_address_content td,
+#table_clients_address_content th,
+#table_clients_address_content td,
+.table_responsive_format th,
+.table_responsive_format td{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.table_responsive_format tr:nth-child(even){
+  background-color: var(--light-yellow);
+}
+
+.max_size_table{
+  max-width: 90%;
+  max-height: 50%;
+  position: absolute;
+  overflow-x: scroll;
+}
+
+#table_clients_content thead tr th img,
+#table_reports_content thead tr th img{
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+/*clases giro img*/
+
+.giro{
+  transform: rotate(180deg);
+}
+
+/*settings*/
+#form_settings_technical_panel{
+  text-align: center;
+}
+
+.general_inputs{
+  display: block;
+  width: 95%;
+  padding: 7px;
+  margin: 10px 0;
+}
+
+/*sign_off*/
+#sign_off{
+  text-align: center;
+}
+
+/*animations*/
+.btns_prev_next_page:hover{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.navigation_technical_panel_sections li:hover{
+  background-color: var(--light-yellow);
+}
+
+#btn_search_report:hover,
+#btn_search_client:hover,
+#btn_submit:hover,
+#hamburguer:hover,
+.tabs button:hover,
+#btn_confirm_sign_off:hover,
+.btn_reports:hover,
+.general_input_button:hover,
+#btn_search_machine:hover,
+#search_by_serial_electric_machine:hover,
+#btn_qr_search_machine:hover,
+#btn_scan_qr_machine:hover,
+.btn_firms:hover{
+  background-color: var(--light-yellow);
+  cursor: pointer;
+}
+
+#close_pop_update_client:hover{
+  cursor: pointer;
+}
+
+
+#table_clients_content thead tr th:hover,
+#table_reports_content thead tr th:hover{
+  background-color: var(--light-yellow);
+}
+
+#table_clients_content thead tr th:active,
+#table_reports_content thead tr th:active{
+  background-color: var(--dark-yellow);
+}
+
+/*responsive*/
+@media only screen and (max-width: 950px) {
+  /*btn ayuda-responsive*/
+  .btn_help{
+    position: absolute;
+    top: 30px;
+    right: calc(50% - 12px);
+  }
+
+  .btn_help img{
+    width: 24px;
+    height: 24px;
+  }
+  /*fin btn ayuda-responsive*/
+
+  #login{
+    background-size: 45%;
+  }
+
+  #hamburguer{
+    display: block;
+    position: fixed;
+  }
+
+  #navigation_technical_panel{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    font-size: 1.3em;
+    vertical-align: middle;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  .navigation_technical_panel_sections{
+    text-align: center;
+  }
+
+  .navigation_technical_panel_sections li img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .content_technical_panel_sections{
+    margin-left: 0;
+    width: 100%;
+  }
+
+  /*draw technical & client*/
+  .pop_draw{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /*reports*/
+  #search_by_serial_electric_machine{
+    width: 95%;
+    text-align: center;
+  }
+  .hour_section{
+      display: block;
+  }
+
+  .report_electrical_content_table,
+  .report_air_conditioning_content_table{
+    width: 100%;
+  }
+
+  .report_electrical_content_sections label,
+  .report_air_conditioning_sections label,
+  .report_pumps_content_sections label{
+    display: block;
+  }
+  .technical_pumps_section {
+    max-width: 100%;
+  }
+
+  #report_electrical_form input,
+  #report_electrical_form select,
+  #report_air_conditioning_form input,
+  #report_air_conditioning_form select,
+  #report_pumps_form input,
+  #report_pumps_form select{
+    width: 97%;
+    position: relative;
+  }
+
+  .socials{
+    width: 100%;
+  }
+
+  .general_inputs{
+    width: 95%;
+    padding: 7px;
+    margin: 10px 0;
+  }
+
+  /*table responsive*/
+  .max_size_table{
+    max-width: 100%;
+    position:relative;
+    overflow-x:auto;
+  }
+
+  .table_responsive_format{
+    display:flex;
+    width: 100%;
+    overflow: scroll;
+  }
+
+
+  #table_reports_content{
+    height: 325px;
+  }
+
+  #table_clients_content{
+    height: 325px;
+  }
+
+  #table_record_electrical_content{
+    height: 250px;
+  }
+
+
+  .table_responsive_format thead{
+    position: fixed;
+  }
+
+  .table_responsive_format tr{
+    /*display: inline-block;*/
+    /* display: grid; */
+  }
+
+  #table_record tr td{
+    margin-left: 100px;
+  }
+
+  #table_record_electrical_content tr td{
+    margin-left: 150px;
+  }
+
+  .table_responsive_format thead th,
+  .table_responsive_format tr td{
+    display: block;
+  }
+
+  .report_electrical_content_table input[type="radio"],
+  .report_air_conditioning_content_table input[type="radio"]{
+    min-width: 20px;
+  }
+
+  /*search machine - tecnical*/
+  #table_clients_content tr td,
+  #table_reports_content tr td{
+    margin-left: 150px;
+  }
+
+  /*scan section qr machine*/
+
+  .scan_qr_electrical_machine{
+    width: 100%;
+  }
+
+  .machine_electrical_content{
+    width: 100%;
+  }
+
+  .parameters_electrical_content_sections label{
+    width: 100%;
+  }
+
+  /*reports air conditioning*/
+  .right_alingment{
+    text-align: left;
+  }
+
+  .report_air_conditioning_content_table{
+    vertical-align: middle;
+  }
+  .report_air_conditioning_content_table label{
+    display: none;
+  }
+  .report_air_conditioning_content_table input,
+  .report_pumps_content_table input{
+    max-width: 25%;
+  }
+
+  /*report pumps*/
+  #pumps_pressure_type_content{
+    flex-direction: column;
+  }
+
+  #pumps_pressure_type_content input[type="radio"]{
+    width: 20px;
+    height:  20px;
+    margin: 10px;
+  }
+
+  /*canvas firms*/
+  .canvas_section{
+    width: 100%;
+  }
+  .button_draw{
+    width: 100%;
+  }
+
+  /* pops */
+  #close_pop_update_client{
+    left: 50px;
+    top: 50px;
+    position:absolute;
+
+  }
+
+  .pop_update_client_content{
+    width: 85%;
+    height: 80%;
+    text-align: center;
+  }
+
+  /* client address form*/
+  .multiple_address_clients{
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 10px;
+    position: relative;
+  }
+
+  #table_update_clients_address_content,
+  #table_clients_address_content{
+    position: relative;
+  }
+
+  #buttons_update_address_client_info,
+  #buttons_address_client_info{
+    margin-top: 15px;
+  }
+
+  .new_client_form{
+      padding: 15px 0;
+  }
+  .btns_update_info_client{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+  }
+  .btns_update_info_client a{
+    width: 100%;
+  }
+
+  /*update state client*/
+  .details_info_client span{
+    width: 100%;
+    padding: 0;
+  }
+
+  /*display alert info*/
+  .display_info{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .content_display_info{
+    padding: 20px 30px;
+  }
+}
